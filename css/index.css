@@ -1,0 +1,19 @@
+h1 {
+  margin-block: 1.9rem;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  margin-block: 1.9rem;
+  padding-left: 380px;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
