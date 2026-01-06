@@ -89,6 +89,24 @@
   gap: 1rem;
 }
 
+.image-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.image-wrap img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+   justify-content: center;
+}
+
+
+.img_4_1{
+  padding-left: 30rem;
+  padding-top: 100px;
+}
 
 
 
