@@ -17,10 +17,6 @@ main {
   margin-top: auto;
 }
 
-.p{
-  
-}
-
 /************************ DARK MODE ************************/
 html.dark {
   background-color: #595757;
