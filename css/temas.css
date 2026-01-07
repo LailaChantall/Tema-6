@@ -15,6 +15,7 @@
     inset 0 -6px 8px rgba(255, 255, 255, 0.9), 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+/************************* SCROLL-WRAPPER ***********************/
 .scroll-wrapper {
   overflow-x: auto;
   overflow-y: hidden;
@@ -22,29 +23,20 @@
   padding: 2rem 0;
 }
 
-
 .scroll-wrapper::-webkit-scrollbar {
   display: none;
 }
 .scroll-wrapper {
   scrollbar-width: none;
 }
-
+/************************* SCROLL-TRACK ***********************/
 .scroll-track {
   display: flex;
   gap: 2rem;
   padding: 0 4rem;
 }
 
-
-
-.card {
-  flex: 0 0 320px;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
+/************************* Info ***********************/
 .info-btn {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 100px;
@@ -52,11 +44,14 @@
     inset 0 -6px 8px rgba(255, 255, 255, 0.9), 0 8px 12px rgba(0, 0, 0, 0.2);
   border: none;
   padding: 1rem;
-  font-weight: bold;
   border-radius: 16px;
   cursor: pointer;
-  
-  text-align: left;
+  font-family: "Audiowide", sans-serif;
+
+  text-align: center;
+}
+.p {
+  font-family: "Audiowide", sans-serif;
 }
 
 .info-content {
@@ -64,63 +59,45 @@
   overflow: hidden;
   transition: max-height 0.3s ease;
 }
-
+/************************* CARD ***********************/
 .card img {
-    margin-top: 150px;
+  margin-top: 150px;
   width: 100%;
   bottom: 500%;
   height: 60%;
-  object-fit: cover;      /* VERY IMPORTANT */
+  object-fit: cover; /* VERY IMPORTANT */
   border-radius: 24px;
   display: block;
 }
-
-.scroll-track {
-  display: flex;
-  gap: 3rem;
-  padding: 0 4rem;
-  width: max-content;
-}
 .card {
-  flex: 0 0 520px;        /* ALL cards same width */
-  height: 680px;  /* ALL cards same height */
+  flex: 0 0 520px; /* ALL cards same width */
+  height: 680px; /* ALL cards same height */
   display: flex;
+  align-items: stretch;
   flex-direction: column;
-  gap: 1rem;
+  margin: auto;
 }
 
+/*************** IMG WRAP*****************/
 .image-wrap {
   width: 100%;
   display: flex;
   justify-content: center;
-  
 }
 .image-wrap img {
   max-width: 100%;
   height: auto;
   display: block;
-   justify-content: center;
+  justify-content: center;
 }
 
-
-.img_4_1{
+.img_4_1 {
   padding-left: 30rem;
   padding-top: 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+p{
+  font-family: monospace;
+  font-size: 14PX;
+  
+}

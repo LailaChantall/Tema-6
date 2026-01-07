@@ -1,0 +1,73 @@
+/************************** PROFIL*************/
+.card {
+  display: flex;
+
+  align-items: stretch;
+  flex-direction: column;
+  margin: auto;
+  width: 420px;
+  min-height: 700px;
+  padding-bottom: 20px;
+  padding: 70px;
+  font-size: 20px;
+  border-radius: 50px;
+  background: #ededed76;
+  font-family: "Audiowide", sans-serif;
+  color: black;
+  box-shadow: inset 0 6px 8px rgba(0, 0, 0, 0.15),
+    inset 0 -6px 8px rgba(255, 255, 255, 0.9), 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/************************** PILLS TIL PROFIL HEADER *************/
+.profile-header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding-left: 10 ;
+  margin-bottom: 80px;
+}
+/************************** PILLS TIL PROFIL IMG *************/
+.profile-header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 30%;
+  object-fit: cover;
+}
+/************************** PILLS TIL PROFIL NAVN*************/
+.name-pill {
+  padding: 12px 30px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+  background: #ededed;
+  box-shadow: inset 0 6px 8px rgba(0, 0, 0, 0.15),
+    inset 0 -6px 8px rgba(255, 255, 255, 0.9), 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.profile-pills {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+/************************** PILLS TIL PROFIL*************/
+.pill {
+  height: 60px;
+  border-radius: 999px;
+  background: #ededed;
+  box-shadow: inset 0 6px 8px rgba(0, 0, 0, 0.15),
+    inset 0 -6px 8px rgba(255, 255, 255, 0.9), 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.pill.small {
+  padding: 12px 30px;
+  width: 320px;
+}
+
+.pill.large {
+  padding: 12px 10px;
+display: flex;
+  gap: 24px;
+  width: 100%;
+  height: auto;
+font-size: 18px;
+}
