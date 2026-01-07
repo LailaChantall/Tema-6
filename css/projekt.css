@@ -48,7 +48,7 @@
     background: #beb6b6;
     border-radius: 999px;
 
-    z-index: 10; 
+    z-index: 10;
 
     display: flex;
     justify-content: center;
@@ -63,8 +63,8 @@
 
 .grid_2_1 {
   position: absolute;
-  top: 19%;
-  left: 30%;
+  top: 25%;
+  left: 33%;
   font-family: "Audiowide", sans-serif;
   font-size: 45px;
   background-color: #fbf8f15d;
